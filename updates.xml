@@ -3,4 +3,10 @@
   <app appid='goakhphnpfcehaehamncdmcmnlgpgien'>
     <updatecheck codebase='https://github.com/v324s/kinopoisk/raw/main/kinopoisk.crx' version='1.0.1' />
   </app>
+  <app appid='goakhphnpfcehaehamncdmcmnlgpgien'>
+    <updatecheck codebase='https://github.com/v324s/kinopoisk/raw/main/kinopoisk.crx' version='1.0.2' />
+  </app>
+  <app appid='goakhphnpfcehaehamncdmcmnlgpgien'>
+    <updatecheck codebase='https://github.com/v324s/kinopoisk/raw/main/kinopoisk.crx' version='1.0.3' />
+  </app>
 </gupdate>
