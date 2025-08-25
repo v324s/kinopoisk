@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gupdate xmlns='http://www.google.com/update2/response' protocol='2.0'>
+  <app appid='goakhphnpfcehaehamncdmcmnlgpgien'>
+    <updatecheck codebase='https://github.com/v324s/kinopoisk/raw/main/kinopoisk.crx' version='1.0.1' />
+  </app>
+</gupdate>

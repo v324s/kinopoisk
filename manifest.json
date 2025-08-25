@@ -1,0 +1,39 @@
+{
+    "manifest_version": 3,
+    "name": "Kinopoisk",
+    "version": "1.0.1",
+    "description": "Добавляет кнопку на страницы фильмов и сериалов на Kinopoisk",
+    "update_url": "https://raw.githubusercontent.com/v324s/kinopoisk/main/updates.xml",
+    "permissions": [
+        "activeTab"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Показать версию расширения"
+    },
+    "content_scripts": [
+      {
+        "matches": [
+          "https://www.kinopoisk.ru/film/*",
+          "https://www.kinopoisk.ru/series/*",
+          "https://kinopoisk.ru/film/*",
+          "https://kinopoisk.ru/series/*",
+          "http://www.kinopoisk.ru/film/*",
+          "http://www.kinopoisk.ru/series/*",
+          "http://kinopoisk.ru/film/*",
+          "http://kinopoisk.ru/series/*"
+        ],
+        "js": ["content.js"]
+      }
+    ],
+    "host_permissions": [
+        "https://www.kinopoisk.ru/film/*",
+        "https://www.kinopoisk.ru/series/*",
+        "https://kinopoisk.ru/film/*",
+        "https://kinopoisk.ru/series/*",
+        "http://www.kinopoisk.ru/film/*",
+        "http://www.kinopoisk.ru/series/*",
+        "http://kinopoisk.ru/film/*",
+        "http://kinopoisk.ru/series/*"
+    ]
+}
