@@ -25,11 +25,23 @@
             color: #888;
             font-style: italic;
         }
+        .link {
+            display: block;
+            margin: 10px 0;
+            color: #a900ff;
+            text-decoration: none;
+        }
+        .link:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <div class="version" id="version">Загрузка...</div>
     <div class="description">Kinopoisk - смотрите фильмы бесплатно</div>
+    <div class="description">
+        <a href="https://www.kinopoisk.ru/" target="_blank" rel="noopener noreferrer" class="link">Перейти на Kinopoisk</a>
+    </div>
     <div class="update-info" id="updateInfo"></div>
     
     <script src="popup.js"></script>
